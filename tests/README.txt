@@ -47,7 +47,7 @@ cucumber/index.html - HTML report.
 
 HOW TO RUN IT
 
-Should be installed Maven before running.
+Should be installed Maven and JRE before running.
 Open command line and navigate to folder with project.
 Run following command in command line: mvn test ro mvn install.
 After that tests will be running.
