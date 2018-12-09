@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="11968" started-at="2018-12-09T12:11:54Z" finished-at="2018-12-09T12:12:06Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:quandoo.runTest@2a5ca609]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Command line test" duration-ms="11968" started-at="2018-12-09T12:11:54Z" finished-at="2018-12-09T12:12:06Z">
+      <class name="config.BaseTest">
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:config.BaseTest@28feb3fa]" name="closeDriver" is-config="true" duration-ms="829" started-at="2018-12-09T13:12:06Z" finished-at="2018-12-09T13:12:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- config.BaseTest -->
+      <class name="quandoo.runTest">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:quandoo.runTest@2a5ca609]" name="setUpClass" is-config="true" duration-ms="443" started-at="2018-12-09T13:11:54Z" finished-at="2018-12-09T13:11:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:quandoo.runTest@2a5ca609]" name="feature" duration-ms="11269" started-at="2018-12-09T13:11:54Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-12-09T13:12:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[QuandooTest]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:quandoo.runTest@2a5ca609]" name="tearDownClass" is-config="true" duration-ms="107" started-at="2018-12-09T13:12:06Z" finished-at="2018-12-09T13:12:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- quandoo.runTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
